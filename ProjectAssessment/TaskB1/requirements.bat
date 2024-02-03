@@ -6,3 +6,4 @@ pip install pandas
 pip install yahoo_fin
 pip install yfinance
 pip install ipykernel
+pip install seaborn
