@@ -41,7 +41,7 @@ def plot_candlestick(data, n_days=1):
 
 # Example usage:
 if __name__ == '__main__':
-    # Load the stock market data (replace with your own dataset)
+    # Load the stock market data
     stock_data = pd.read_csv('AMZN_2024-02-20.csv', parse_dates=['Date'], header=0)
 
     # Call the function with the data and specify n_days (e.g., n_days=7 for weekly candles)
