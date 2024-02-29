@@ -7,3 +7,7 @@ pip install yahoo_fin
 pip install yfinance
 pip install ipykernel
 pip install seaborn
+pip install plotly
+pip install nbformat
+pip install jupyterlab
+pip install ipywidgets
