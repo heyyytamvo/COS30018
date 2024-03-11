@@ -1,20 +1,24 @@
-Model: "sequential_1"
+Model: "sequential_2"
 _________________________________________________________________
  Layer (type)                Output Shape              Param #   
 =================================================================
- simple_rnn_2 (SimpleRNN)    (None, 50)                2600      
+ gru (GRU)                   (None, 10, 50)            7950      
                                                                  
- dropout_2 (Dropout)         (None, 50)                0         
+ dropout_4 (Dropout)         (None, 10, 50)            0         
                                                                  
- dense_1 (Dense)             (None, 1)                 51        
+ gru_1 (GRU)                 (None, 50)                15300     
+                                                                 
+ dropout_5 (Dropout)         (None, 50)                0         
+                                                                 
+ dense_2 (Dense)             (None, 1)                 51        
                                                                  
 =================================================================
-Total params: 2651 (10.36 KB)
-Trainable params: 2651 (10.36 KB)
+Total params: 23301 (91.02 KB)
+Trainable params: 23301 (91.02 KB)
 Non-trainable params: 0 (0.00 Byte)
 _________________________________________________________________
 
-        NUMBER_OF_LAYER = 1 
+        NUMBER_OF_LAYER = 2 
 
         NUMBER_OF_HIDDEN_UNITS = 50 
 
