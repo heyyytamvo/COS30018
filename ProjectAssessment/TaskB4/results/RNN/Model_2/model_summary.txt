@@ -2,21 +2,25 @@ Model: "sequential"
 _________________________________________________________________
  Layer (type)                Output Shape              Param #   
 =================================================================
- gru (GRU)                   (None, 80)                19920     
+ simple_rnn (SimpleRNN)      (None, 60, 200)           40400     
                                                                  
- dropout (Dropout)           (None, 80)                0         
+ dropout (Dropout)           (None, 60, 200)           0         
                                                                  
- dense (Dense)               (None, 1)                 81        
+ simple_rnn_1 (SimpleRNN)    (None, 200)               80200     
+                                                                 
+ dropout_1 (Dropout)         (None, 200)               0         
+                                                                 
+ dense (Dense)               (None, 1)                 201       
                                                                  
 =================================================================
-Total params: 20001 (78.13 KB)
-Trainable params: 20001 (78.13 KB)
+Total params: 120801 (471.88 KB)
+Trainable params: 120801 (471.88 KB)
 Non-trainable params: 0 (0.00 Byte)
 _________________________________________________________________
 
-        NUMBER_OF_LAYER = 1 
+        NUMBER_OF_LAYER = 2 
 
-        NUMBER_OF_HIDDEN_UNITS = 80 
+        NUMBER_OF_HIDDEN_UNITS = 200 
 
         NUMBER_OF_EPOCHS = 25
 
@@ -28,3 +32,4 @@ _________________________________________________________________
  
         OPTIMIZER = "adam"
   
+        DROP_OUT_RATE = 0    
