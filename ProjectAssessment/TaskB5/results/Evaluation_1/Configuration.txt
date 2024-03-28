@@ -1,15 +1,15 @@
 
-        NUMBER_OF_LAYER = 2 
+        NUMBER_OF_LAYER = 3 
 
         NUMBER_OF_HIDDEN_UNITS = 80 
 
-        NUMBER_OF_EPOCHS = 10
+        NUMBER_OF_EPOCHS = 30
 
-        BATCH_SIZE = 12
+        BATCH_SIZE = 15
 
         FEATURE_PREDICT = "Close"
     
-        LOSS_FUNCTION = "huber_loss"
+        LOSS_FUNCTION = "mean_squared_error"
  
         OPTIMIZER = "adam"
   
