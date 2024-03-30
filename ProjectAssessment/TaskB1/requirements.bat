@@ -11,3 +11,4 @@ pip install plotly
 pip install nbformat
 pip install jupyterlab
 pip install ipywidgets
+pip install statsmodels
