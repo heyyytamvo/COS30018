@@ -1,0 +1,35 @@
+Model: "sequential_1"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ gru_2 (GRU)                 (None, 2, 80)             19920     
+                                                                 
+ dropout_2 (Dropout)         (None, 2, 80)             0         
+                                                                 
+ gru_3 (GRU)                 (None, 80)                38880     
+                                                                 
+ dropout_3 (Dropout)         (None, 80)                0         
+                                                                 
+ dense_1 (Dense)             (None, 1)                 81        
+                                                                 
+=================================================================
+Total params: 58881 (230.00 KB)
+Trainable params: 58881 (230.00 KB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
+
+        NUMBER_OF_LAYER = 2 
+
+        NUMBER_OF_HIDDEN_UNITS = 80 
+
+        NUMBER_OF_EPOCHS = 30
+
+        BATCH_SIZE = 12
+
+        FEATURE_PREDICT = "Close"
+
+        LOSS_FUNCTION = "mean_squared_error"
+
+        OPTIMIZER = "adam"
+
+        DROP_OUT_RATE = 0    
