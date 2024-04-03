@@ -3,3 +3,4 @@
 + [Task B3](https://github.com/heyyytamvo/COS30018/blob/main/ProjectAssessment/TaskB3/Report.pdf)
 + [Task B4](https://github.com/heyyytamvo/COS30018/blob/main/ProjectAssessment/TaskB4/Report.pdf)
 + [Task B5](https://github.com/heyyytamvo/COS30018/blob/main/ProjectAssessment/TaskB5/Report.pdf)
++ [Task B6](https://github.com/heyyytamvo/COS30018/blob/main/ProjectAssessment/TaskB6/Report.pdf)
