@@ -1,0 +1,16 @@
+
+        NUMBER_OF_LAYER = 3 
+
+        NUMBER_OF_HIDDEN_UNITS = 80 
+
+        NUMBER_OF_EPOCHS = 30
+
+        BATCH_SIZE = 32
+
+        FEATURE_PREDICT = "Close"
+    
+        LOSS_FUNCTION = "huber_loss"
+ 
+        OPTIMIZER = "adam"
+  
+        DROP_OUT_RATE = 0    
