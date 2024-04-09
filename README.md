@@ -4,3 +4,7 @@
 + [Task B4](https://github.com/heyyytamvo/COS30018/blob/main/ProjectAssessment/TaskB4/Report.pdf)
 + [Task B5](https://github.com/heyyytamvo/COS30018/blob/main/ProjectAssessment/TaskB5/Report.pdf)
 + [Task B6](https://github.com/heyyytamvo/COS30018/blob/main/ProjectAssessment/TaskB6/Report.pdf)
++ [Task B7](https://github.com/heyyytamvo/COS30018/tree/main/ProjectAssessment/TaskB7)
+  + [Thanh Tam Vo](https://github.com/heyyytamvo/COS30018/tree/main/ProjectAssessment/TaskB7/103487596_ThanhTamVo/ResearchTask)
+  + [Phuc Khai Hoan Cao](https://github.com/heyyytamvo/COS30018/tree/main/ProjectAssessment/TaskB7/103804739_PhucKhaiHoanCao/ResearchTask)
+  + [Tai Minh Huy Nguyen](https://github.com/heyyytamvo/COS30018/tree/main/ProjectAssessment/TaskB7/104220352_TaiMinhHuyNguyen/ResearchTask)
